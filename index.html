@@ -1,0 +1,24 @@
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<body onunload="alert('Пожалуйста, не закрывайте меня!')">
+
+	<div class="flex">
+
+		<input id="task" placeholder="info" class="inputTask"><input class="inputDate" id="date" type="date"><button id="add" class="addBtn" onclick='addTaskButton()'>Add</button> 
+
+		<a class="fileLoad" href="" onclick="load()" id="a"> Download</a>
+
+		<div class="file-input-wrapper">
+		  <button class="btn-file-input addBtn">Upload</button>
+		  <input type="file" id="input" onchange='openFile(event)' />
+		</div>
+
+	</div>
+
+	<div id='container' class="flex-tasks">
+
+	</div>
+
+</body>
+
+<script src="js/main.js"></script>

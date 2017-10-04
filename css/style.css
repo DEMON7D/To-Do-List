@@ -1,0 +1,135 @@
+
+.close {
+
+	padding: 0px 12px;
+	cursor : default;
+	opacity: 0.3;
+}
+
+.close:hover {
+	opacity: 1;
+}
+
+.date{
+
+}
+
+.task{
+	font-size: 18px;
+	position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.task-name{
+	flex-grow: 5;
+}
+
+.task:hover {
+	background : #ddd 	
+}
+
+.checked > .task-name{
+	text-decoration: line-through;
+}
+
+
+.inputTask {
+    border: none;
+    width: 50%;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.inputDate {
+    border: none;
+    width: 25%;
+    padding: 10px;
+}
+
+.addBtn {
+	border: none;
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+
+.fileLoad {
+	text-decoration: none; 
+	padding: 10px;
+    width: 25%;
+    background-color: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+	transition: 0.3s;
+}
+
+.fileLoad:hover {	
+	background-color: #bbb;
+}
+
+.file-input-wrapper {
+    width: 25%;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.file-input-wrapper > input[type="file"] {
+    font-size: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+.file-input-wrapper > .btn-file-input {
+	border: none;
+
+    width: 100%;
+    height: 40px;
+}
+.file-input-wrapper:hover > .btn-file-input {
+    background-color: #aaa;
+}
+
+
+.flex {
+    margin: 10px 0;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+}
+
+.flex-tasks {
+	flex-direction: column;
+    margin: 10px 0;
+    padding: 5px;
+
+
+}
+
+.flex-itm-task {
+	margin: 10px 0;
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.flex-itm {
+
+    margin: 5px;
+    padding: 50px;
+}
